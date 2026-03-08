@@ -1,0 +1,23 @@
+/*!@media (max-width: 1068px){ 
+	.header-bg{
+		height: 1000px !important;-
+	} 
+}
+*/
+@media (max-width: 768px){ 
+	.header-bg {
+		height: 134vh !important;
+	} 
+	.heroHeading {
+		font-size: 55px !important;
+	}
+	.heroPara {
+		font-size: 20px !important;
+	}
+}
+
+@media (max-width: 480px){ 
+	.header-bg {
+		height: 126vh !important;
+	} 
+}
