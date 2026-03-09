@@ -256,9 +256,10 @@
   display: flex;
   overflow-x: auto;
   gap: 20px;
-  padding: 20px;
   scrollbar-width: none;
   -ms-overflow-style: none;
+  scroll-snap-type: x proximity;
+  -webkit-overflow-scrolling: touch;
 }
 
 .card {
@@ -268,4 +269,238 @@
   padding: 20px;
   flex-shrink: 0;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.activityBg {
+  background: #f9fafb;
+}
+.activityBg h3 {
+  color: #201a5b;
+  font-family: GillSans;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 42px;
+}
+.activityBg p {
+  color: #4b5563;
+  font-family: GillSans;
+  font-size: 15.8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24.5px;
+}
+.card-2 {
+  display: inline-flex;
+  height: 279.85px;
+  min-width: 400px;
+  padding: 28px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  box-shadow:
+    0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 8px 10px -6px rgba(0, 0, 0, 0.1);
+  border-radius: 14px;
+}
+.card-2:nth-child(1) {
+  gap: 30px;
+  justify-content: end !important;
+  background: #201a5b;
+}
+.title-card h2,
+.title-card p {
+  color: #fff;
+  font-family: GillSans;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+.title-card p {
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 21px !important;
+}
+.title-card p:hover {
+  color: #ffca05;
+}
+.footer-note {
+  color: #dadada;
+  font-family: GillSans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+.activityBg > div {
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+}
+.cardText {
+  color: #201a5b;
+  -webkit-leading-trim: both;
+  font-family: GillSans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 133.333% */
+}
+.image-box {
+  position: relative;
+  height: 220px;
+  width: 100%;
+}
+
+.image-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.number-badge {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background: white;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  color: rgba(32, 26, 91, 1);
+  display: flex;
+}
+.sport-card {
+  width: 350px;
+  background: white;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+}
+.card-info {
+  display: flex;
+  padding: 10px 21px;
+  align-items: flex-start;
+}
+
+.card-info h3 {
+  margin: 0;
+  color: var(--navy);
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+/* Footer Section */
+.footer-section {
+  background-color: #00a7e1;
+  padding: 60px 0 0;
+  color: #e0e0e0;
+}
+
+.footer-content {
+  padding-bottom: 40px;
+}
+
+.footer-column {
+  margin-bottom: 40px;
+}
+
+.footer-logo-wrapper {
+  margin-bottom: 20px;
+}
+
+.footer-logo {
+  max-width: 200px;
+  height: auto;
+  display: block;
+}
+
+.footer-description {
+  font-family: "Gill Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #393939;
+  margin: 0;
+}
+
+.footer-heading {
+  font-family: "Gill Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #e0e0e0;
+  margin-bottom: 20px;
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.contact-icon {
+  width: 16px;
+  height: 16px;
+  color: #ffca05;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.contact-text {
+  font-family: "Gill Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #393939;
+  flex: 1;
+  padding-right: 178px !important;
+}
+
+.accreditation-box {
+  border: 0.8px solid rgba(255, 255, 255, 0.2);
+  padding: 12px 16px;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.accreditation-text {
+  font-family: "Gill Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #393939;
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(224, 224, 224, 0.3);
+  padding: 20px 0;
+}
+
+.footer-bottom-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.footer-copyright,
+.footer-developer {
+  font-family: "Gill Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  color: #e0e0e0;
 }
