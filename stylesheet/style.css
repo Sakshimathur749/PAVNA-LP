@@ -9,6 +9,39 @@
 .width-600 {
   max-width: 600px;
 }
+.p-10px {
+  padding: 10px;
+}
+.iconBgColor {
+  background: rgba(28, 44, 91, 0.1);
+}
+.rounded-7px {
+  border-radius: 7px;
+}
+.rounded-4px {
+  border-radius: 4px;
+}
+.colorOne {
+  color: #201a5b;
+}
+.colorTwo {
+  color: #4b5563;
+}
+.font-Gill {
+  font-family: GillSans;
+}
+.font-32px {
+  font-size: 32px;
+}
+.font-normal {
+  font-style: normal;
+}
+.fw-700 {
+  font-weight: 700;
+}
+.lh-35 {
+  line-height: 35px;
+}
 /* Custom Colors */
 .text-navy {
   color: #202547 !important;
@@ -107,11 +140,6 @@
   height: 500px;
   transform: scale(0.9);
   transform-origin: top;
-}
-@media (min-width: 1200px) {
-  .desktop-layout {
-    transform: scale(1);
-  }
 }
 
 .venn-container {
@@ -362,6 +390,9 @@
   padding: 80px 0px;
   gap: 48px;
 }
+.padding-80_40 {
+  padding: 80px 40px;
+}
 .icon {
   display: flex;
   width: 48px;
@@ -575,8 +606,8 @@
 }
 .activityBg > div {
   display: flex;
-  flex-direction: column;
-  gap: 42px;
+  /* flex-direction: column; */
+  /* gap: 42px; */
 }
 .cardText {
   color: #201a5b;
@@ -990,7 +1021,7 @@
   text-align: center;
   font-family: GillSans;
   font-size: 18px;
-  padding: 0px 60px;
+  padding: 0px 50px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -1030,4 +1061,7 @@
   width: 100%;
   height: 100%;
   aspect-ratio: 181/112;
+}
+.groupImg {
+  height: 400px;
 }

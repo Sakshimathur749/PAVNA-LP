@@ -1,3 +1,13 @@
+@media (min-width: 1200px) {
+  .desktop-layout {
+    transform: scale(1);
+  }
+}
+@media (max-width: 1200px) {
+  .groupImg {
+    height: 320px !important;
+  }
+}
 @media (max-width: 990px) {
   .header-bg {
     height: 170vh !important;
@@ -7,6 +17,9 @@
   }
   .heroPara {
     font-size: 20px !important;
+  }
+  .groupImg {
+    height: 230px;
   }
 }
 
