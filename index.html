@@ -189,8 +189,411 @@
       </div>
     </div>
 
-    <div class="">
-      <img src="assets/Group_1.webp" width="100%" height="100%" />
+    <div
+      class="position-relative overflow-hidden d-flex flex-column align-items-center py-4 py-md-5"
+      style="background-color: #fdfdfd"
+    >
+      <div class="paper-texture"></div>
+
+      <!-- Main Content Wrapper -->
+      <div
+        id="main-container"
+        class="main-container position-relative w-100 px-3 px-xl-4 d-flex flex-column transition-all opacity-0 z-1"
+      >
+        <!-- --- DESKTOP LAYOUT --- -->
+        <div
+          class="d-none d-lg-flex w-100 justify-content-center align-items-center gap-4 position-relative mt-5 desktop-layout z-1"
+        >
+          <!-- Connecting SVG Arrows -->
+          <svg
+            class="center-absolute pointer-events-none"
+            style="
+              width: 1184px;
+              height: 600px;
+              z-index: 0;
+              pointer-events: none;
+            "
+            viewBox="0 0 1184 600"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <defs>
+              <marker
+                id="arrow-navy"
+                viewBox="0 0 10 10"
+                refX="8"
+                refY="5"
+                markerWidth="6"
+                markerHeight="6"
+                orient="auto"
+              >
+                <path d="M 0 0 L 10 5 L 0 10 z" fill="#202547" />
+              </marker>
+            </defs>
+            <!-- Students Arrow (Bent Line) -->
+            <path
+              id="arrow-students"
+              d="M 480 200 L 400 200 L 350 160"
+              stroke="#202547"
+              stroke-width="1.5"
+              fill="none"
+              marker-end="url(#arrow-navy)"
+              class="transition-all opacity-100"
+            />
+            <!-- Parents Arrow (Bent Line) -->
+            <path
+              id="arrow-parents"
+              d="M 450 420 L 380 420 L 330 460"
+              stroke="#202547"
+              stroke-width="1.5"
+              fill="none"
+              marker-end="url(#arrow-navy)"
+              class="transition-all opacity-100"
+            />
+            <!-- Teachers Arrow (Bent Line) -->
+            <path
+              id="arrow-teachers"
+              d="M 720 300 L 760 300 L 800 260"
+              stroke="#202547"
+              stroke-width="1.5"
+              fill="none"
+              marker-end="url(#arrow-navy)"
+              class="transition-all opacity-100"
+            />
+          </svg>
+
+          <!-- Left Column: Text Blocks -->
+          <div
+            class="d-flex flex-column justify-content-between position-relative z-1"
+            style="height: 400px; width: 320px; margin-right: -1rem"
+          >
+            <!-- Students Text Block -->
+            <div
+              class="interact-target text-students transition-all opacity-100 z-2"
+              data-section="students"
+              style="margin-top: -2rem"
+            >
+              <div class="mb-3">
+                <h3 class="fs-6 fw-semibold text-gray-custom mb-1">
+                  Traditional Schools:
+                </h3>
+                <ul
+                  class="custom-bullet-list bullet-gray text-gray-custom fs-6 lh-snug"
+                >
+                  <li>Homework, assignments and assessment prep</li>
+                </ul>
+              </div>
+              <div>
+                <h3 class="fs-6 fw-bold text-navy mb-2">Pavna Schools:</h3>
+                <ul
+                  class="custom-bullet-list bullet-navy text-dark-custom lh-snug"
+                  style="font-size: 14px"
+                >
+                  <li>Learner led communities</li>
+                  <li>
+                    Socio-Emotional learnings being imparted. Meaningful and
+                    impactful conversations
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Parents Text Block -->
+            <div
+              class="interact-target text-parents transition-all opacity-100 z-2"
+              data-section="parents"
+              style="margin-bottom: -2rem"
+            >
+              <div class="mb-3">
+                <h3 class="fs-6 fw-semibold text-gray-custom mb-1">
+                  Traditional Schools:
+                </h3>
+                <ul
+                  class="custom-bullet-list bullet-gray text-gray-custom fs-6 lh-snug"
+                >
+                  <li>PTMs and Report cards</li>
+                </ul>
+              </div>
+              <div>
+                <h3 class="fs-6 fw-bold text-navy mb-2">Pavna Schools:</h3>
+                <ul
+                  class="custom-bullet-list bullet-navy text-dark-custom lh-snug"
+                  style="font-size: 14px"
+                >
+                  <li>Parent learning interventions</li>
+                  <li>
+                    Parents co-architecting via feedback loops and co-curricular
+                    participation
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Center Column: Venn Diagram -->
+          <div class="venn-container z-1">
+            <!-- Students Circle -->
+            <div
+              id="circle-students"
+              class="interact-target circle-base circle-desktop circle-students bg-orange opacity-100 text-white"
+              data-section="students"
+            >
+              <span class="fw-bold fs-4 tracking-wide text-navy">Students</span>
+            </div>
+
+            <!-- Parents Circle -->
+            <div
+              id="circle-parents"
+              class="interact-target circle-base circle-desktop circle-parents bg-yellow opacity-100 text-navy"
+              data-section="parents"
+            >
+              <span class="fw-bold fs-4 tracking-wide">Parents</span>
+            </div>
+
+            <!-- Teachers Circle -->
+            <div
+              id="circle-teachers"
+              class="interact-target circle-base circle-desktop circle-teachers bg-blue opacity-100 text-navy"
+              data-section="teachers"
+            >
+              <span class="fw-bold fs-4 tracking-wide">Teachers</span>
+            </div>
+
+            <!-- Center Logo Overlap -->
+            <div
+              class="center-absolute center-logo-desktop bg-white rounded-circle shadow p-3 d-flex align-items-center justify-content-center pointer-events-none"
+              style="z-index: 30"
+            >
+              <img
+                src="assets/SVG.svg"
+                alt="Pavna Logo"
+                class="w-100 h-100"
+                style="object-fit: contain"
+              />
+            </div>
+          </div>
+
+          <!-- Right Column: Text Blocks -->
+          <div
+            class="d-flex flex-column justify-content-start position-relative z-1 pt-5"
+            style="height: 400px; width: 340px; margin-left: -1rem"
+          >
+            <!-- Teachers Text Block -->
+            <div
+              class="interact-target text-teachers transition-all opacity-100"
+              data-section="teachers"
+            >
+              <div class="mb-3">
+                <h3 class="fs-6 fw-semibold text-gray-custom mb-1">
+                  Traditional Schools:
+                </h3>
+                <ul
+                  class="custom-bullet-list bullet-gray text-gray-custom fs-6 lh-snug"
+                >
+                  <li>Fixed curriculum</li>
+                  <li>Academic rigor is centered around rote learning</li>
+                </ul>
+              </div>
+              <div>
+                <h3 class="fs-6 fw-bold text-navy mb-2">Pavna Schools:</h3>
+                <ul
+                  class="custom-bullet-list bullet-navy text-dark-custom lh-snug"
+                  style="font-size: 14px"
+                >
+                  <li>
+                    <span
+                      ><strong class="text-teal underline-custom fw-semibold"
+                        >Inquiry based learning</strong
+                      >
+                      - teacher training programs are in progress. Year long
+                      calendar</span
+                    >
+                  </li>
+                  <li><span>Introducing Montessori system!</span></li>
+                  <li>
+                    <span
+                      ><strong class="text-teal underline-custom fw-semibold"
+                        >SEEL (Social Emotional and Ethical Learning)</strong
+                      >
+                      - focus on self and environment and community
+                      engagement</span
+                    >
+                  </li>
+                  <li>
+                    <span
+                      >Co-Curricular,
+                      <strong class="text-teal underline-custom fw-semibold"
+                        >Super-Curricular</strong
+                      >
+                      activities as essentials</span
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- --- MOBILE/TABLET LAYOUT (Stacked) --- -->
+        <div
+          class="d-flex d-lg-none flex-column align-items-center gap-4 position-relative z-1 mt-4 w-100"
+        >
+          <!-- Mobile Venn Diagram -->
+          <div class="mobile-venn-container">
+            <div
+              id="circle-mobile-students"
+              class="interact-target circle-base circle-mobile circle-m-students bg-orange transition-all opacity-100"
+              data-section="students"
+            >
+              <span class="text-navy fw-bold">Students</span>
+            </div>
+            <div
+              id="circle-mobile-parents"
+              class="interact-target circle-base circle-mobile circle-m-parents bg-yellow transition-all opacity-100"
+              data-section="parents"
+            >
+              <span class="text-navy fw-bold">Parents</span>
+            </div>
+            <div
+              id="circle-mobile-teachers"
+              class="interact-target circle-base circle-mobile circle-m-teachers bg-blue transition-all opacity-100"
+              data-section="teachers"
+            >
+              <span class="text-navy fw-bold">Teachers</span>
+            </div>
+
+            <!-- Center Logo Overlap Mobile -->
+            <div
+              class="center-absolute center-logo-mobile bg-white rounded-circle shadow-sm p-3 d-flex align-items-center justify-content-center pointer-events-none"
+              style="z-index: 30"
+            >
+              <img
+                src="Vector.svg"
+                alt="Pavna Logo"
+                class="w-100 h-100"
+                style="object-fit: contain"
+              />
+            </div>
+          </div>
+
+          <!-- Mobile Text Blocks -->
+          <div class="w-100 d-flex flex-column gap-5" style="max-width: 400px">
+            <!-- Students Text Block Mobile -->
+            <div
+              class="interact-target text-students transition-all opacity-100 px-2"
+              data-section="students"
+            >
+              <div class="mb-3">
+                <h3 class="fs-6 fw-semibold text-gray-custom mb-1">
+                  Traditional Schools:
+                </h3>
+                <ul
+                  class="custom-bullet-list bullet-gray text-gray-custom fs-6 lh-snug"
+                >
+                  <li>Homework, assignments and assessment prep</li>
+                </ul>
+              </div>
+              <div>
+                <h3 class="fs-6 fw-bold text-navy mb-2">Pavna Schools:</h3>
+                <ul
+                  class="custom-bullet-list bullet-navy text-dark-custom lh-snug"
+                  style="font-size: 14px"
+                >
+                  <li>Learner led communities</li>
+                  <li>
+                    Socio-Emotional learnings being imparted. Meaningful and
+                    impactful conversations
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Teachers Text Block Mobile -->
+            <div
+              class="interact-target text-teachers transition-all opacity-100 px-2"
+              data-section="teachers"
+            >
+              <div class="mb-3">
+                <h3 class="fs-6 fw-semibold text-gray-custom mb-1">
+                  Traditional Schools:
+                </h3>
+                <ul
+                  class="custom-bullet-list bullet-gray text-gray-custom fs-6 lh-snug"
+                >
+                  <li>Fixed curriculum</li>
+                  <li>Academic rigor is centered around rote learning</li>
+                </ul>
+              </div>
+              <div>
+                <h3 class="fs-6 fw-bold text-navy mb-2">Pavna Schools:</h3>
+                <ul
+                  class="custom-bullet-list bullet-navy text-dark-custom lh-snug"
+                  style="font-size: 14px"
+                >
+                  <li>
+                    <span
+                      ><strong class="text-teal underline-custom fw-semibold"
+                        >Inquiry based learning</strong
+                      >
+                      - teacher training programs are in progress. Year long
+                      calendar</span
+                    >
+                  </li>
+                  <li><span>Introducing Montessori system!</span></li>
+                  <li>
+                    <span
+                      ><strong class="text-teal underline-custom fw-semibold"
+                        >SEEL (Social Emotional and Ethical Learning)</strong
+                      >
+                      - focus on self and environment and community
+                      engagement</span
+                    >
+                  </li>
+                  <li>
+                    <span
+                      >Co-Curricular,
+                      <strong class="text-teal underline-custom fw-semibold"
+                        >Super-Curricular</strong
+                      >
+                      activities as essentials</span
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Parents Text Block Mobile -->
+            <div
+              class="interact-target text-parents transition-all opacity-100 px-2"
+              data-section="parents"
+            >
+              <div class="mb-3">
+                <h3 class="fs-6 fw-semibold text-gray-custom mb-1">
+                  Traditional Schools:
+                </h3>
+                <ul
+                  class="custom-bullet-list bullet-gray text-gray-custom fs-6 lh-snug"
+                >
+                  <li>PTMs and Report cards</li>
+                </ul>
+              </div>
+              <div>
+                <h3 class="fs-6 fw-bold text-navy mb-2">Pavna Schools:</h3>
+                <ul
+                  class="custom-bullet-list bullet-navy text-dark-custom lh-snug"
+                  style="font-size: 14px"
+                >
+                  <li>Parent learning interventions</li>
+                  <li>
+                    Parents co-architecting via feedback loops and co-curricular
+                    participation
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div>
@@ -853,9 +1256,88 @@
         </div>
       </div>
     </div>
-    <section class="admissions-section">
+    <section class="admissions-section position-relative">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="1440"
+        height="250"
+        viewBox="0 0 1440 250"
+        fill="none"
+        class="position-absolute boardBg"
+      >
+        <path
+          d="M1676.38 954.77C1604.64 1059.39 1521.21 1232.3 1374.79 1220.97C1320.69 1216.41 1277.39 1172.72 1268.86 1120.03C1257 1047.36 1282.48 980.882 1303.57 910.608C1331.5 824.854 1367.14 741.728 1402.13 658.311C1439.7 561.399 1497.83 455.784 1476.8 349.584C1455.3 246.014 1336.52 215.579 1254.37 268.328C1114.5 386.445 928.184 652.703 804.906 777.829C766.578 813.579 703.187 810.133 671.87 763.576C644.41 721.4 647.974 665.262 658.082 619.289C688.171 494.513 757.815 297.945 764.3 176.849C772.129 93.7241 707.335 46.1738 632.024 38.1125C482.805 26.2541 305.191 189.35 203.822 287.956C124.48 369.154 54.0185 460.749 -10.834 556.784C-131.542 744.123 -208.722 921.765 -111.969 1027.91C-73.1158 1070.78 -1.83645 1099.64 59.0432 1087.08C177.589 1068.1 233.444 957.398 253.893 847.636C274.517 750.549 277.438 652.294 258.567 554.798C201.193 246.89 -50.8557 157.105 -237 432.885"
+          stroke="white"
+          stroke-opacity="0.05"
+          stroke-width="75"
+          stroke-miterlimit="10"
+          stroke-linecap="round"
+        />
+      </svg>
       <div class="container">
-        <div class="admissions-card" id="admissions-card-redirect">
+        <div class="row d-flex flex-column gap-60 mb-80">
+          <div
+            class="col-12 boardHead d-flex flex-column gap-14 text-white align-items-center justify-content-center"
+          >
+            <h3
+              class="count d-flex flex-column flex-md-row text-center gap-3 mb-0"
+            >
+              Boarding: A Home
+              <p>Away From Home</p>
+            </h3>
+            <p class="boardPara mb-0">
+              Discover a nurturing environment where students find a sense of
+              belonging and support, fostering lifelong friendships and
+              memorable experiences.
+            </p>
+          </div>
+          <div class="row gap-25 d-flex flex-wrap justify-content-center">
+            <div class="boardCard gap-14 col-12 col-md-6 col-lg-3 p-3">
+              <div class="imgIcon"><img src="assets/Component_1.webp" /></div>
+              <h4 class="mb-0">Boarding Facilities Nestled In Nature</h4>
+              <p class="text-center mb-0">
+                Peaceful green surroundings for comfortable, focused living.
+              </p>
+            </div>
+            <div class="boardCard gap-14 col-12 col-md-6 col-lg-3 p-3">
+              <div class="imgIcon"><img src="assets/bed.webp" /></div>
+              <h4 class="mb-0">Triple Sharing AC Rooms Bathroom</h4>
+              <p class="text-center mb-0">
+                AC rooms with attached bathrooms for everyday comfort.
+              </p>
+            </div>
+            <div class="boardCard gap-14 col-12 col-md-6 col-lg-3 p-3">
+              <div class="imgIcon"><img src="assets/chair.webp" /></div>
+              <h4 class="mb-0">Entertainment Zone For Recreation</h4>
+              <p class="text-center mb-0">
+                Recreational spaces for relaxation, socializing, and stress
+                relief.
+              </p>
+            </div>
+            <div class="boardCard gap-14 col-12 col-md-6 col-lg-3 p-3">
+              <div class="imgIcon"><img src="assets/dining.webp" /></div>
+              <h4 class="mb-0">Pure Vegetarian Dining</h4>
+              <p class="text-center mb-0">
+                Healthy, hygienic vegetarian meals prepared fresh every day.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="row p-80px border-14 d-flex align-items-center justify-content-center position-relative"
+        >
+          <video
+            autoplay
+            muted
+            playsinline
+            src="assets/PIS_HOSTEL_Pure_veg.mp4"
+            class="videoCard"
+          ></video>
+          <div class="videoBg position-absolute">
+            <img src="assets/Component_2.webp" />
+          </div>
+        </div>
+        <div class="admissions-card row" id="admissions-card-redirect">
           <div class="row g-0">
             <div class="col-lg-5 col-md-12 admissions-left-panel">
               <div class="admissions-content">
@@ -878,80 +1360,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-7 col-md-12 admissions-right-panel">
-              <div class="admissions-form-wrapper">
-                <form class="admissions-form" id="admissionsForm">
-                  <div class="form-group">
-                    <label for="parentName" class="form-label"
-                      >PARENT NAME</label
-                    >
-                    <input
-                      type="text"
-                      class="form-control"
-                      id="parentName"
-                      placeholder="John Doe"
-                      required
-                    />
-                  </div>
-                  <div class="form-group">
-                    <label for="phone" class="form-label">PHONE</label>
-                    <input
-                      type="tel"
-                      class="form-control"
-                      id="phone"
-                      placeholder="+91 98765 43210"
-                      required
-                    />
-                  </div>
-                  <div class="form-group">
-                    <label for="email" class="form-label">EMAIL ADDRESS</label>
-                    <input
-                      type="email"
-                      class="form-control"
-                      id="email"
-                      placeholder="john@example.com"
-                      required
-                    />
-                  </div>
-                  <div class="form-group">
-                    <label for="grade" class="form-label"
-                      >GRADE APPLYING FOR</label
-                    >
-                    <input
-                      type="text"
-                      class="form-control"
-                      id="grade"
-                      placeholder="Grade I"
-                      required
-                    />
-                  </div>
-                  <button type="submit" class="btn-enquire">
-                    ENQUIRE NOW
-                    <svg
-                      class="btn-icon"
-                      width="16"
-                      height="16"
-                      viewBox="0 0 16 16"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M2 8H14M14 8L10 4M14 8L10 12"
-                        stroke="white"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                  </button>
-                </form>
-                <div
-                  class="npf_wgts"
-                  data-height="600px"
-                  data-w="5df7e645e5934259f4e30e2e550810a2"
-                ></div>
-              </div>
-            </div>
+            <div class="col-lg-7 col-md-12 admissions-right-panel"></div>
           </div>
         </div>
       </div>
@@ -963,7 +1372,7 @@
             <div class="col-lg-4 col-md-12 footer-column">
               <div class="footer-logo-wrapper">
                 <img
-                  src="assets/logo (3).webp"
+                  src="assets/logo_(3).webp"
                   alt="Pavna School Logo"
                   class="footer-logo"
                 />
@@ -1115,6 +1524,90 @@
             768: { items: 2 },
             1200: { items: 3 },
           },
+        });
+      });
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        // Initial Fade-in Animation
+        setTimeout(() => {
+          const container = document.getElementById("main-container");
+          container.classList.remove("opacity-0");
+          container.classList.add("opacity-100");
+        }, 100);
+
+        const sections = ["students", "parents", "teachers"];
+        const interactTargets = document.querySelectorAll(".interact-target");
+
+        // Handle highlighting logic
+        function updateActiveSection(activeId) {
+          sections.forEach((id) => {
+            const isHovered = id === activeId;
+            const isMuted = activeId !== null && !isHovered;
+
+            // Update Arrows (Desktop only)
+            const arrow = document.getElementById(`arrow-${id}`);
+            if (arrow) {
+              if (isMuted) {
+                arrow.classList.replace("opacity-100", "opacity-20");
+              } else {
+                arrow.classList.replace("opacity-20", "opacity-100");
+              }
+            }
+
+            // Update Text Blocks (Both desktop and mobile versions share the same class)
+            const textBlocks = document.querySelectorAll(`.text-${id}`);
+            textBlocks.forEach((text) => {
+              if (isMuted) {
+                text.classList.add("opacity-30");
+                text.classList.remove("opacity-100");
+              } else {
+                text.classList.add("opacity-100");
+                text.classList.remove("opacity-30");
+              }
+            });
+
+            // Update Desktop Circles
+            const circle = document.getElementById(`circle-${id}`);
+            if (circle) {
+              if (isMuted) {
+                circle.classList.add("opacity-60");
+                circle.classList.remove("opacity-100", `circle-active-${id}`);
+              } else if (isHovered) {
+                circle.classList.add("opacity-100", `circle-active-${id}`);
+                circle.classList.remove("opacity-60");
+              } else {
+                // Reset state
+                circle.classList.add("opacity-100");
+                circle.classList.remove("opacity-60", `circle-active-${id}`);
+              }
+            }
+
+            // Update Mobile Circles
+            const mobileCircle = document.getElementById(`circle-mobile-${id}`);
+            if (mobileCircle) {
+              if (isMuted) {
+                mobileCircle.classList.add("opacity-40");
+                mobileCircle.classList.remove("opacity-100");
+              } else {
+                mobileCircle.classList.add("opacity-100");
+                mobileCircle.classList.remove("opacity-40");
+              }
+            }
+          });
+        }
+
+        // Attach event listeners to all interactive elements (circles and text blocks)
+        interactTargets.forEach((target) => {
+          const section = target.getAttribute("data-section");
+
+          target.addEventListener("mouseenter", () => {
+            updateActiveSection(section);
+          });
+
+          target.addEventListener("mouseleave", () => {
+            updateActiveSection(null);
+          });
         });
       });
     </script>
