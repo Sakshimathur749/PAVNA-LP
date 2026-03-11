@@ -143,7 +143,6 @@ a {
   background-color: #202547;
   top: 0.4rem;
 }
-
 /* Layout & Sizing - Desktop */
 .main-container {
   max-width: 1300px;
@@ -153,7 +152,6 @@ a {
   transform: scale(0.9);
   transform-origin: top;
 }
-
 .venn-container {
   width: 460px;
   height: 460px;
@@ -213,7 +211,6 @@ a {
   z-index: 20;
   transform: scale(1.05);
 }
-
 .center-logo-desktop {
   width: 128px;
   height: 128px;
@@ -224,7 +221,6 @@ a {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
 /* Layout & Sizing - Mobile */
 .mobile-venn-container {
   width: 300px;
@@ -264,7 +260,6 @@ a {
   width: 96px;
   height: 96px;
 }
-
 /* Paper Texture */
 .paper-texture {
   position: absolute;
@@ -277,7 +272,6 @@ a {
   pointer-events: none;
   z-index: 0;
 }
-
 .bgBlue {
   background: #27225c;
 }
@@ -362,7 +356,7 @@ a {
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
-  line-height: 28px; /* 116.667% */
+  line-height: 28px;
 }
 .btnApply {
   display: flex;
@@ -398,7 +392,9 @@ a {
   color: #000 !important;
 }
 .groupImage {
-  width: 80%;
+  height: 575px;
+  width: 500px;
+  bottom: 2px;
   aspect-ratio: 34/39;
 }
 .impactBg {
@@ -487,16 +483,27 @@ a {
   height: 21px;
 }
 .custom-card {
+  position: sticky;
+  top: 30px;
+  background: white;
+  transition: all 0.8s ease-out;
+  z-index: 1;
   padding: 32px !important;
-  opacity: 0;
-  transform: translateY(60px); /* 60px neeche se upar aayega */
-  transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94); /* Smooth slide effect */
-  visibility: hidden;
 }
-.custom-card.animate-in {
-  opacity: 1;
-  transform: translateY(0);
-  visibility: visible;
+.custom-card:nth-child(2) {
+  z-index: 2;
+}
+.custom-card:nth-child(3) {
+  z-index: 3;
+}
+.custom-card:nth-child(4) {
+  z-index: 4;
+}
+.custom-card:nth-child(5) {
+  z-index: 5;
+}
+.custom-card {
+  transform-origin: center top;
 }
 .custom-card h2 {
   width: 373px;
