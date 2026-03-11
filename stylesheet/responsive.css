@@ -21,6 +21,17 @@
   .groupImg {
     height: 230px !important;
   }
+  .navigation img {
+    width: 400px;
+    height: 110px;
+    margin-top: 20px;
+  }
+  .gap-md-14 {
+    gap: 14px;
+  }
+  .boardPara {
+    width: 90%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -31,13 +42,23 @@
   .boardPara {
     width: 100% !important;
   }
+  .custom-card h2 {
+    width: 100% !important;
+  }
 }
-
+@media (max-width: 576px) {
+  .gap-sm-40px {
+    gap: 40px !important;
+  }
+}
 @media (max-width: 480px) {
   .header-bg {
     height: 162vh !important;
   }
-  .custom-card h2 {
-    width: 295px;
+
+  .navigation img {
+    width: 300px;
+    height: 90px;
+    margin-top: 20px;
   }
 }

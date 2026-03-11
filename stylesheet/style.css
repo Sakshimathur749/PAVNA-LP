@@ -21,6 +21,9 @@ a {
 .rounded-7px {
   border-radius: 7px;
 }
+.rounded-20px {
+  border-radius: 20px !important;
+}
 .rounded-4px {
   border-radius: 4px;
 }
@@ -30,11 +33,17 @@ a {
 .colorTwo {
   color: #4b5563;
 }
+.border-dark {
+  border-color: #201a5b;
+}
 .font-Gill {
   font-family: GillSans;
 }
 .font-32px {
   font-size: 32px;
+}
+.font-30px {
+  font-size: 30px;
 }
 .font-normal {
   font-style: normal;
@@ -303,6 +312,9 @@ a {
 }
 .gap-25 {
   gap: 25px !important;
+}
+.gap-20 {
+  gap: 20px !important;
 }
 .mb-80 {
   margin-bottom: 80px;
@@ -1008,7 +1020,6 @@ a {
   border-radius: 24px;
   border: 1px solid rgba(255, 255, 255, 0.1);
   background: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(40px);
   padding: 24px;
   flex-direction: column;
   align-items: center;
@@ -1069,7 +1080,6 @@ a {
 }
 .boardBg {
   max-width: 1913.384px;
-  max-height: 1184px;
   width: 100%;
   height: 100%;
   aspect-ratio: 181/112;
