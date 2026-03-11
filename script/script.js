@@ -18,6 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
     observer.observe(card);
   });
 });
+
 counters.forEach((counter) => {
   const target = +counter.getAttribute("data-target");
   counter.innerText = "0";
