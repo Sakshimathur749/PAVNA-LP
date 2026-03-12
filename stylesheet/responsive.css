@@ -11,6 +11,9 @@
   .right-md-10per {
     right: 10% !important;
   }
+  .header-bg {
+    height: 100vh !important;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -38,9 +41,6 @@
 }
 
 @media (max-width: 990px) {
-  .header-bg {
-    height: 165vh !important;
-  }
   .gap-md-50 {
     gap: 50px !important;
   }
@@ -58,8 +58,25 @@
 }
 
 @media (max-width: 768px) {
+  .impactBg {
+    padding: 40px 0px;
+    gap: 20px;
+  }
+  .p-40 {
+    padding: 40px;
+  }
+  .statBlock {
+    gap: 8px;
+    padding: 10px;
+  }
+  .count {
+    font-size: 25px;
+  }
   .heroContainer {
     gap: 23px;
+  }
+  .btnApply {
+    padding: 10px 20px;
   }
   .custom-card-para {
     margin: 0px;
@@ -84,8 +101,8 @@
   .admissions-section {
     padding: 50px 0 !important;
   }
-  .p-md-50_22 {
-    padding: 50px 22px !important;
+  .p-md-40_20 {
+    padding: 40px 20px !important;
   }
   .card-overlay p {
     padding: 0 20px;
