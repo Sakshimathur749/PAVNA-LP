@@ -58,6 +58,12 @@
 }
 
 @media (max-width: 768px) {
+  .gap-md-40 {
+    gap: 40px !important;
+  }
+  .footer-column {
+    margin-bottom: 20px !important;
+  }
   .impactBg {
     padding: 40px 0px;
     gap: 20px;
@@ -65,6 +71,9 @@
   .statBlock {
     gap: 8px;
     padding: 10px;
+  }
+  .gap-md-15 {
+    gap: 15px !important;
   }
   .admissions-headline {
     font-size: 30px !important;
@@ -118,11 +127,17 @@
   .admissions-section {
     padding: 50px 0 !important;
   }
+  .admissions-contact {
+    margin-top: 0px !important;
+  }
   .p-md-40_20 {
     padding: 40px 20px !important;
   }
   .py-md-40 {
     padding: 40px 0px;
+  }
+  .px-md-14 {
+    padding: 0px 14px !important;
   }
   .card-overlay p {
     padding: 0 20px;
@@ -130,8 +145,17 @@
   .boardCard h4 {
     padding: 0px;
   }
+  .lh-md-30 {
+    line-height: 30px !important;
+  }
   .cardHover.small {
     height: 260px;
+  }
+  .admissions-left-panel {
+    min-height: auto !important;
+  }
+  .footer-section {
+    padding: 50px 0 0 !important;
   }
 }
 @media (max-width: 480px) {
