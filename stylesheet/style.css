@@ -9,6 +9,15 @@
 a {
   color: inherit;
 }
+.z-4 {
+  z-index: 4;
+}
+.max-h-500 {
+  max-height: 500px;
+}
+.max-w-500 {
+  max-width: 500px;
+}
 .width-600 {
   max-width: 600px;
 }
@@ -32,6 +41,9 @@ a {
 }
 .colorTwo {
   color: #4b5563;
+}
+.text-underline-none {
+  text-decoration: none;
 }
 .border-dark {
   border-color: #201a5b;
@@ -307,6 +319,9 @@ a {
 .gap-60 {
   gap: 60px !important;
 }
+.gap-90 {
+  gap: 90px !important;
+}
 .gap-25 {
   gap: 25px !important;
 }
@@ -395,8 +410,6 @@ a {
   color: #000 !important;
 }
 .groupImage {
-  height: 575px;
-  width: 500px;
   bottom: 2px;
   aspect-ratio: 34/39;
 }
@@ -406,6 +419,9 @@ a {
 }
 .padding-80_40 {
   padding: 80px 40px;
+}
+.padding-80_0 {
+  padding: 80px 0px;
 }
 .icon {
   display: flex;
@@ -736,16 +752,16 @@ a {
 }
 
 .footer-description {
-  font-family: "Gill Sans", sans-serif;
+  font-family: GillSans, sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 1.6;
-  color: #393939;
+  color: white;
   margin: 0;
 }
 
 .footer-heading {
-  font-family: "Gill Sans", sans-serif;
+  font-family: GillSans, sans-serif;
   font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
@@ -775,11 +791,11 @@ a {
 }
 
 .contact-text {
-  font-family: "Gill Sans", sans-serif;
+  font-family: GillSans, sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 1.6;
-  color: #393939;
+  color: white;
   flex: 1;
 }
 
@@ -791,7 +807,7 @@ a {
 }
 
 .accreditation-text {
-  font-family: "Gill Sans", sans-serif;
+  font-family: GillSans, sans-serif;
   font-size: 14px;
   font-weight: 400;
   text-transform: uppercase;
@@ -814,7 +830,7 @@ a {
 
 .footer-copyright,
 .footer-developer {
-  font-family: "Gill Sans", sans-serif;
+  font-family: GillSans, sans-serif;
   font-size: 13px;
   font-weight: 300;
   color: #e0e0e0;
@@ -855,7 +871,7 @@ a {
 }
 
 .admissions-headline {
-  font-family: "Gill Sans", sans-serif;
+  font-family: GillSans, sans-serif;
   font-size: 42px;
   font-weight: 200;
   color: #333333;
@@ -864,7 +880,7 @@ a {
 }
 
 .admissions-description {
-  font-family: "Gill Sans", sans-serif;
+  font-family: GillSans, sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: #333333;
@@ -876,7 +892,7 @@ a {
 }
 
 .contact-label {
-  font-family: "Gill Sans", sans-serif;
+  font-family: GillSans, sans-serif;
   font-size: 11px;
   font-weight: 600;
   color: #1a237e;
@@ -886,7 +902,7 @@ a {
 }
 
 .contact-phone {
-  font-family: "Gill Sans", sans-serif;
+  font-family: GillSans, sans-serif;
   font-size: 21px;
   font-weight: 400;
   color: #201a58;
@@ -895,7 +911,7 @@ a {
 }
 
 .contact-email {
-  font-family: "Gill Sans", sans-serif;
+  font-family: GillSans, sans-serif;
   font-size: 14.3px;
   font-style: normal;
   font-weight: 400;
@@ -924,7 +940,7 @@ a {
 }
 
 .admissions-form .form-label {
-  font-family: "Gill Sans", sans-serif;
+  font-family: GillSans, sans-serif;
   font-size: 11px;
   font-weight: 600;
   color: #333333;
@@ -939,7 +955,7 @@ a {
   padding: 14px 16px;
   border: 1px solid #cccccc;
   border-radius: 4px;
-  font-family: "Gill Sans", sans-serif;
+  font-family: GillSans, sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: #333333;
@@ -965,7 +981,7 @@ a {
   border: none;
   padding: 16px 24px;
   border-radius: 4px;
-  font-family: "Gill Sans", sans-serif;
+  font-family: GillSans, sans-serif;
   font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;

@@ -20,16 +20,16 @@
     <link rel="stylesheet" type="text/css" href="stylesheet/responsive.css" />
   </head>
   <body>
-    <div class="container-fluid header-bg position-md-relative">
-      <div class="container d-flex flex-column heroContainer">
+    <div class="container-fluid header-bg position-relative">
+      <div class="container d-flex flex-column gap-90 gap-md-50">
         <div class="row navigation">
           <img src="assets/logo.webp" />
         </div>
         <div class="row flex flex-column flex-md-row gap-40 gap-lg-0">
           <div class="col-lg-6 col-sm-12 d-flex flex-column heroMainContent">
             <p class="heroBadge me-auto mb-0">Admissions Open for 2026</p>
-            <p class="heroHeading mb-0">The Pavna Promise</p>
-            <p class="heroPara mb-0">
+            <p class="heroHeading font-md-40 mb-0">The Pavna Promise</p>
+            <p class="heroPara font-md-18 mb-0">
               At Pavna, education is a journey of becoming - of discovering the
               best version of oneself while learning to live with purpose and
               joy. We aspire to build global citizens who are rooted in values,
@@ -91,10 +91,11 @@
             </div>
           </div>
           <div class="col-lg-6 col-sm-12">
-            <img
-              src="assets/Group_1707483769.webp"
-              class="groupImage position-md-absolute right-md-10per right-lg-5per"
-            />
+            <div
+              class="position-absolute bottom-0 groupImage right-md-10per right-lg-5per end-0 max-h-500 max-w-500"
+            >
+              <img src="assets/Group_1707483769.webp" class="h-100 w-100" />
+            </div>
           </div>
         </div>
       </div>
@@ -191,7 +192,9 @@
         id="main-container"
         class="main-container position-relative w-100 px-3 px-xl-4 d-flex flex-column transition-all opacity-0 z-1"
       >
-        <h3 class="fw-700 colorOne text-center font-Gill font-42px py-4">
+        <h3
+          class="fw-700 colorOne text-center font-Gill font-md-33 font-42px py-4"
+        >
           Pavna School Ecosystem
         </h3>
         <!-- --- DESKTOP LAYOUT --- -->
@@ -591,723 +594,783 @@
     </div>
 
     <div>
-      <div class="container impactBg d-flex flex-column">
-        <div class="row flex flex-column gap-4">
-          <h3 class="academicPrograms">Academic Programs</h3>
+      <div class="container padding-80_40 p-md-50_22 gap-40 d-flex flex-column">
+        <div class="row flex flex-column gap-md-4 gap-3">
+          <h3 class="academicPrograms font-md-33">Academic Programs</h3>
           <p
-            class="d-flex flex-column align-items-center text-center width-600 mx-auto academicPara"
+            class="d-flex flex-column align-items-center text-center width-600 mx-auto p-0 p-md-auto academicPara mb-0"
           >
             Nurturing holistic development from formative years to senior
             secondary excellence through a structured and engaging curriculum.
           </p>
         </div>
-        <div
-          class="row d-flex justify-content-between gap-5 gap-md-0 align-items-center border rounded-top-4 bg-white custom-card"
-        >
+        <div class="d-flex flex-column gap-40">
           <div
-            class="order-2 order-md-1 col-12 col-md-6 d-flex flex-column heroContainer"
+            class="row d-flex justify-content-between gap-5 gap-md-0 align-items-center border rounded-top-4 bg-white custom-card"
           >
-            <div class="textTitle">
-              <h2>The Formative Years (Montessori)</h2>
-              <span class="line">
-                <svg
-                  height="6"
-                  viewBox="0 0 84 6"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <rect width="84" height="5.25" rx="2.625" fill="#FFCA05" />
-                </svg>
-              </span>
-            </div>
-            <div>
-              <h4 class="custom-card-heading">The Foundation Years</h4>
-              <p class="custom-card-para">
-                The purpose of education is to replace an empty mind with an
-                open one.
-              </p>
-            </div>
-            <div class="row row-cols-2">
-              <div class="col align-items-center gap-14">
-                <div class="d-flex gap-10">
-                  <span class="checkIcon d-flex flex-column align-items-start">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="14"
-                      height="14"
-                      viewBox="0 0 14 14"
-                      fill="none"
-                      class="bulletImage"
+            <div
+              class="order-2 order-md-1 col-12 col-md-6 d-flex flex-column heroContainer"
+            >
+              <div class="textTitle">
+                <h2>The Formative Years (Montessori)</h2>
+                <span class="line">
+                  <svg
+                    height="6"
+                    viewBox="0 0 84 6"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect width="84" height="5.25" rx="2.625" fill="#FFCA05" />
+                  </svg>
+                </span>
+              </div>
+              <div>
+                <h4 class="custom-card-heading">The Foundation Years</h4>
+                <p class="custom-card-para">
+                  The purpose of education is to replace an empty mind with an
+                  open one.
+                </p>
+              </div>
+              <div class="row row-cols-1 row-sm-cols-2">
+                <div class="col align-items-center gap-14">
+                  <div class="d-flex gap-10">
+                    <span
+                      class="checkIcon d-flex flex-column align-items-start"
                     >
-                      <path
-                        d="M11.6673 3.5L5.25065 9.91667L2.33398 7"
-                        stroke="#201A5B"
-                        stroke-width="1.16667"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                  </span>
-                  <p class="acadminBullet mb-0">Discover</p>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="14"
+                        viewBox="0 0 14 14"
+                        fill="none"
+                        class="bulletImage"
+                      >
+                        <path
+                          d="M11.6673 3.5L5.25065 9.91667L2.33398 7"
+                          stroke="#201A5B"
+                          stroke-width="1.16667"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </span>
+                    <p class="acadminBullet mb-0">Discover</p>
+                  </div>
+                  <div class="d-flex gap-10">
+                    <span
+                      class="checkIcon d-flex flex-column align-items-start"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="14"
+                        viewBox="0 0 14 14"
+                        fill="none"
+                        class="bulletImage"
+                      >
+                        <path
+                          d="M11.6673 3.5L5.25065 9.91667L2.33398 7"
+                          stroke="#201A5B"
+                          stroke-width="1.16667"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </span>
+                    <p class="acadminBullet mb-0">Question</p>
+                  </div>
+                  <div class="d-flex gap-10">
+                    <span
+                      class="checkIcon d-flex flex-column align-items-start"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="14"
+                        viewBox="0 0 14 14"
+                        fill="none"
+                        class="bulletImage"
+                      >
+                        <path
+                          d="M11.6673 3.5L5.25065 9.91667L2.33398 7"
+                          stroke="#201A5B"
+                          stroke-width="1.16667"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </span>
+                    <p class="acadminBullet mb-0">Experience</p>
+                  </div>
+                  <div class="d-flex gap-10">
+                    <span
+                      class="checkIcon d-flex flex-column align-items-start"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="14"
+                        viewBox="0 0 14 14"
+                        fill="none"
+                        class="bulletImage"
+                      >
+                        <path
+                          d="M11.6673 3.5L5.25065 9.91667L2.33398 7"
+                          stroke="#201A5B"
+                          stroke-width="1.16667"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </span>
+                    <p class="acadminBullet mb-0">Become Independent</p>
+                  </div>
                 </div>
-                <div class="d-flex gap-10">
-                  <span class="checkIcon d-flex flex-column align-items-start">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="14"
-                      height="14"
-                      viewBox="0 0 14 14"
-                      fill="none"
-                      class="bulletImage"
+                <div class="col align-items-center gap-2">
+                  <div class="d-flex gap-10">
+                    <span
+                      class="checkIcon d-flex flex-column align-items-start"
                     >
-                      <path
-                        d="M11.6673 3.5L5.25065 9.91667L2.33398 7"
-                        stroke="#201A5B"
-                        stroke-width="1.16667"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                  </span>
-                  <p class="acadminBullet mb-0">Question</p>
-                </div>
-                <div class="d-flex gap-10">
-                  <span class="checkIcon d-flex flex-column align-items-start">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="14"
-                      height="14"
-                      viewBox="0 0 14 14"
-                      fill="none"
-                      class="bulletImage"
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="14"
+                        viewBox="0 0 14 14"
+                        fill="none"
+                        class="bulletImage"
+                      >
+                        <path
+                          d="M11.6673 3.5L5.25065 9.91667L2.33398 7"
+                          stroke="#201A5B"
+                          stroke-width="1.16667"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </span>
+                    <p class="acadminBullet mb-0">Explore</p>
+                  </div>
+                  <div class="d-flex gap-10">
+                    <span
+                      class="checkIcon d-flex flex-column align-items-start"
                     >
-                      <path
-                        d="M11.6673 3.5L5.25065 9.91667L2.33398 7"
-                        stroke="#201A5B"
-                        stroke-width="1.16667"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                  </span>
-                  <p class="acadminBullet mb-0">Experience</p>
-                </div>
-                <div class="d-flex gap-10">
-                  <span class="checkIcon d-flex flex-column align-items-start">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="14"
-                      height="14"
-                      viewBox="0 0 14 14"
-                      fill="none"
-                      class="bulletImage"
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="14"
+                        viewBox="0 0 14 14"
+                        fill="none"
+                        class="bulletImage"
+                      >
+                        <path
+                          d="M11.6673 3.5L5.25065 9.91667L2.33398 7"
+                          stroke="#201A5B"
+                          stroke-width="1.16667"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </span>
+                    <p class="acadminBullet mb-0">Participate</p>
+                  </div>
+                  <div class="d-flex gap-10">
+                    <span
+                      class="checkIcon d-flex flex-column align-items-start"
                     >
-                      <path
-                        d="M11.6673 3.5L5.25065 9.91667L2.33398 7"
-                        stroke="#201A5B"
-                        stroke-width="1.16667"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                  </span>
-                  <p class="acadminBullet mb-0">Become Independent</p>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="14"
+                        viewBox="0 0 14 14"
+                        fill="none"
+                        class="bulletImage"
+                      >
+                        <path
+                          d="M11.6673 3.5L5.25065 9.91667L2.33398 7"
+                          stroke="#201A5B"
+                          stroke-width="1.16667"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </span>
+                    <p class="acadminBullet mb-0">Emotionally Regulate</p>
+                  </div>
+                  <div class="d-flex gap-10">
+                    <span
+                      class="checkIcon d-flex flex-column align-items-start"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="14"
+                        viewBox="0 0 14 14"
+                        fill="none"
+                        class="bulletImage"
+                      >
+                        <path
+                          d="M11.6673 3.5L5.25065 9.91667L2.33398 7"
+                          stroke="#201A5B"
+                          stroke-width="1.16667"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </span>
+                    <p class="acadminBullet mb-0">Understand The World</p>
+                  </div>
                 </div>
               </div>
-              <div class="col align-items-center gap-2">
-                <div class="d-flex gap-10">
-                  <span class="checkIcon d-flex flex-column align-items-start">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="14"
-                      height="14"
-                      viewBox="0 0 14 14"
-                      fill="none"
-                      class="bulletImage"
-                    >
-                      <path
-                        d="M11.6673 3.5L5.25065 9.91667L2.33398 7"
-                        stroke="#201A5B"
-                        stroke-width="1.16667"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                  </span>
-                  <p class="acadminBullet mb-0">Explore</p>
-                </div>
-                <div class="d-flex gap-10">
-                  <span class="checkIcon d-flex flex-column align-items-start">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="14"
-                      height="14"
-                      viewBox="0 0 14 14"
-                      fill="none"
-                      class="bulletImage"
-                    >
-                      <path
-                        d="M11.6673 3.5L5.25065 9.91667L2.33398 7"
-                        stroke="#201A5B"
-                        stroke-width="1.16667"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                  </span>
-                  <p class="acadminBullet mb-0">Participate</p>
-                </div>
-                <div class="d-flex gap-10">
-                  <span class="checkIcon d-flex flex-column align-items-start">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="14"
-                      height="14"
-                      viewBox="0 0 14 14"
-                      fill="none"
-                      class="bulletImage"
-                    >
-                      <path
-                        d="M11.6673 3.5L5.25065 9.91667L2.33398 7"
-                        stroke="#201A5B"
-                        stroke-width="1.16667"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                  </span>
-                  <p class="acadminBullet mb-0">Emotionally Regulate</p>
-                </div>
-                <div class="d-flex gap-10">
-                  <span class="checkIcon d-flex flex-column align-items-start">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="14"
-                      height="14"
-                      viewBox="0 0 14 14"
-                      fill="none"
-                      class="bulletImage"
-                    >
-                      <path
-                        d="M11.6673 3.5L5.25065 9.91667L2.33398 7"
-                        stroke="#201A5B"
-                        stroke-width="1.16667"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                  </span>
-                  <p class="acadminBullet mb-0">Understand The World</p>
-                </div>
-              </div>
             </div>
-          </div>
-          <div
-            class="order-1 order-md-2 col-12 col-md-6 d-flex flex-column heroContainer position-relative image-hover"
-          >
-            <div class="imgBgTheme"></div>
-            <img src="assets/THE_FORMATIVE_YEARS.webp" class="cardImg" />
-          </div>
-        </div>
-        <div
-          class="row d-flex justify-content-between gap-5 gap-md-0 align-items-center border rounded-top-4 bg-white custom-card"
-        >
-          <div class="order-2 col-12 col-md-6 d-flex flex-column heroContainer">
-            <div class="textTitle">
-              <h2>The Budding Years (Primary Years)</h2>
-              <span class="line">
-                <svg
-                  height="6"
-                  viewBox="0 0 84 6"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <rect width="84" height="5.25" rx="2.625" fill="#FFCA05" />
-                </svg>
-              </span>
-            </div>
-            <div>
-              <h4 class="custom-card-heading">Six Areas of Learning</h4>
-              <p class="custom-card-para">
-                The purpose of education is to replace an empty mind with an
-                open one.
-              </p>
-            </div>
-            <div class="row row-cols-2">
-              <div class="col align-items-center gap-2">
-                <div class="d-flex gap-10">
-                  <span class="checkIcon d-flex flex-column align-items-start">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="14"
-                      height="14"
-                      viewBox="0 0 14 14"
-                      fill="none"
-                      class="bulletImage"
-                    >
-                      <path
-                        d="M11.6673 3.5L5.25065 9.91667L2.33398 7"
-                        stroke="#201A5B"
-                        stroke-width="1.16667"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                  </span>
-                  <p class="acadminBullet mb-0">Explore</p>
-                </div>
-                <div class="d-flex gap-10">
-                  <span class="checkIcon d-flex flex-column align-items-start">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="14"
-                      height="14"
-                      viewBox="0 0 14 14"
-                      fill="none"
-                      class="bulletImage"
-                    >
-                      <path
-                        d="M11.6673 3.5L5.25065 9.91667L2.33398 7"
-                        stroke="#201A5B"
-                        stroke-width="1.16667"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                  </span>
-                  <p class="acadminBullet mb-0">Discover</p>
-                </div>
-                <div class="d-flex gap-10">
-                  <span class="checkIcon d-flex flex-column align-items-start">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="14"
-                      height="14"
-                      viewBox="0 0 14 14"
-                      fill="none"
-                      class="bulletImage"
-                    >
-                      <path
-                        d="M11.6673 3.5L5.25065 9.91667L2.33398 7"
-                        stroke="#201A5B"
-                        stroke-width="1.16667"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                  </span>
-                  <p class="acadminBullet mb-0">Practice</p>
-                </div>
-              </div>
-              <div class="col align-items-center gap-14">
-                <div class="d-flex gap-10">
-                  <span class="checkIcon d-flex flex-column align-items-start">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="14"
-                      height="14"
-                      viewBox="0 0 14 14"
-                      fill="none"
-                      class="bulletImage"
-                    >
-                      <path
-                        d="M11.6673 3.5L5.25065 9.91667L2.33398 7"
-                        stroke="#201A5B"
-                        stroke-width="1.16667"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                  </span>
-                  <p class="acadminBullet mb-0">Investigate</p>
-                </div>
-                <div class="d-flex gap-10">
-                  <span class="checkIcon d-flex flex-column align-items-start">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="14"
-                      height="14"
-                      viewBox="0 0 14 14"
-                      fill="none"
-                      class="bulletImage"
-                    >
-                      <path
-                        d="M11.6673 3.5L5.25065 9.91667L2.33398 7"
-                        stroke="#201A5B"
-                        stroke-width="1.16667"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                  </span>
-                  <p class="acadminBullet mb-0">Create</p>
-                </div>
-                <div class="d-flex gap-10">
-                  <span class="checkIcon d-flex flex-column align-items-start">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="14"
-                      height="14"
-                      viewBox="0 0 14 14"
-                      fill="none"
-                      class="bulletImage"
-                    >
-                      <path
-                        d="M11.6673 3.5L5.25065 9.91667L2.33398 7"
-                        stroke="#201A5B"
-                        stroke-width="1.16667"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                  </span>
-                  <p class="acadminBullet mb-0">Consolidate</p>
-                </div>
-              </div>
+            <div
+              class="order-1 order-md-2 col-12 col-md-6 d-flex flex-column heroContainer position-relative image-hover"
+            >
+              <div class="imgBgTheme"></div>
+              <img src="assets/THE_FORMATIVE_YEARS.webp" class="cardImg" />
             </div>
           </div>
           <div
-            class="order-1 col-12 col-md-6 d-flex flex-column heroContainer position-relative image-hover"
+            class="row d-flex justify-content-between gap-5 gap-md-0 align-items-center border rounded-top-4 bg-white custom-card"
           >
-            <div class="imgBgTheme"></div>
-            <img src="assets/THE_FORMATIVE_YEARS_(1).webp" class="cardImg" />
-          </div>
-        </div>
-        <div
-          class="row d-flex justify-content-between gap-5 gap-md-0 align-items-center border rounded-top-4 bg-white custom-card"
-        >
-          <div
-            class="order-2 order-md-1 col-12 col-md-6 d-flex flex-column heroContainer"
-          >
-            <div class="textTitle">
-              <h2>Nurturing Years (Middle Years)</h2>
-              <span class="line">
-                <svg
-                  height="6"
-                  viewBox="0 0 84 6"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <rect width="84" height="5.25" rx="2.625" fill="#FFCA05" />
-                </svg>
-              </span>
-            </div>
-            <div>
-              <h4 class="custom-card-heading">
-                Committed to Achieve Excellence
-              </h4>
-              <p class="custom-card-para">
-                Creating an environment committed to achieve excellence.
-              </p>
-            </div>
-            <div class="row row-cols-2">
-              <div class="col align-items-center gap-14">
-                <div class="d-flex gap-10">
-                  <span class="checkIcon d-flex flex-column align-items-start">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="14"
-                      height="14"
-                      viewBox="0 0 14 14"
-                      fill="none"
-                      class="bulletImage"
+            <div
+              class="order-2 col-12 col-md-6 d-flex flex-column heroContainer"
+            >
+              <div class="textTitle">
+                <h2>The Budding Years (Primary Years)</h2>
+                <span class="line">
+                  <svg
+                    height="6"
+                    viewBox="0 0 84 6"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect width="84" height="5.25" rx="2.625" fill="#FFCA05" />
+                  </svg>
+                </span>
+              </div>
+              <div>
+                <h4 class="custom-card-heading">Six Areas of Learning</h4>
+                <p class="custom-card-para">
+                  The purpose of education is to replace an empty mind with an
+                  open one.
+                </p>
+              </div>
+              <div class="row row-cols-1 row-sm-cols-2">
+                <div class="col align-items-center gap-2">
+                  <div class="d-flex gap-10">
+                    <span
+                      class="checkIcon d-flex flex-column align-items-start"
                     >
-                      <path
-                        d="M11.6673 3.5L5.25065 9.91667L2.33398 7"
-                        stroke="#201A5B"
-                        stroke-width="1.16667"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                  </span>
-                  <p class="acadminBullet mb-0">
-                    Environment that Promotes Critical Thinking
-                  </p>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="14"
+                        viewBox="0 0 14 14"
+                        fill="none"
+                        class="bulletImage"
+                      >
+                        <path
+                          d="M11.6673 3.5L5.25065 9.91667L2.33398 7"
+                          stroke="#201A5B"
+                          stroke-width="1.16667"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </span>
+                    <p class="acadminBullet mb-0">Explore</p>
+                  </div>
+                  <div class="d-flex gap-10">
+                    <span
+                      class="checkIcon d-flex flex-column align-items-start"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="14"
+                        viewBox="0 0 14 14"
+                        fill="none"
+                        class="bulletImage"
+                      >
+                        <path
+                          d="M11.6673 3.5L5.25065 9.91667L2.33398 7"
+                          stroke="#201A5B"
+                          stroke-width="1.16667"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </span>
+                    <p class="acadminBullet mb-0">Discover</p>
+                  </div>
+                  <div class="d-flex gap-10">
+                    <span
+                      class="checkIcon d-flex flex-column align-items-start"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="14"
+                        viewBox="0 0 14 14"
+                        fill="none"
+                        class="bulletImage"
+                      >
+                        <path
+                          d="M11.6673 3.5L5.25065 9.91667L2.33398 7"
+                          stroke="#201A5B"
+                          stroke-width="1.16667"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </span>
+                    <p class="acadminBullet mb-0">Practice</p>
+                  </div>
                 </div>
-                <div class="d-flex gap-10">
-                  <span class="checkIcon d-flex flex-column align-items-start">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="14"
-                      height="14"
-                      viewBox="0 0 14 14"
-                      fill="none"
-                      class="bulletImage"
+                <div class="col align-items-center gap-14">
+                  <div class="d-flex gap-10">
+                    <span
+                      class="checkIcon d-flex flex-column align-items-start"
                     >
-                      <path
-                        d="M11.6673 3.5L5.25065 9.91667L2.33398 7"
-                        stroke="#201A5B"
-                        stroke-width="1.16667"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                  </span>
-                  <p class="acadminBullet mb-0">Student Leadership</p>
-                </div>
-                <div class="d-flex gap-10">
-                  <span class="checkIcon d-flex flex-column align-items-start">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="14"
-                      height="14"
-                      viewBox="0 0 14 14"
-                      fill="none"
-                      class="bulletImage"
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="14"
+                        viewBox="0 0 14 14"
+                        fill="none"
+                        class="bulletImage"
+                      >
+                        <path
+                          d="M11.6673 3.5L5.25065 9.91667L2.33398 7"
+                          stroke="#201A5B"
+                          stroke-width="1.16667"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </span>
+                    <p class="acadminBullet mb-0">Investigate</p>
+                  </div>
+                  <div class="d-flex gap-10">
+                    <span
+                      class="checkIcon d-flex flex-column align-items-start"
                     >
-                      <path
-                        d="M11.6673 3.5L5.25065 9.91667L2.33398 7"
-                        stroke="#201A5B"
-                        stroke-width="1.16667"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                  </span>
-                  <p class="acadminBullet mb-0">Effective Communication</p>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="14"
+                        viewBox="0 0 14 14"
+                        fill="none"
+                        class="bulletImage"
+                      >
+                        <path
+                          d="M11.6673 3.5L5.25065 9.91667L2.33398 7"
+                          stroke="#201A5B"
+                          stroke-width="1.16667"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </span>
+                    <p class="acadminBullet mb-0">Create</p>
+                  </div>
+                  <div class="d-flex gap-10">
+                    <span
+                      class="checkIcon d-flex flex-column align-items-start"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="14"
+                        viewBox="0 0 14 14"
+                        fill="none"
+                        class="bulletImage"
+                      >
+                        <path
+                          d="M11.6673 3.5L5.25065 9.91667L2.33398 7"
+                          stroke="#201A5B"
+                          stroke-width="1.16667"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </span>
+                    <p class="acadminBullet mb-0">Consolidate</p>
+                  </div>
                 </div>
               </div>
-              <div class="col-lg-6 col-md-6 align-items-center gap-2">
-                <div class="d-flex gap-10">
-                  <span class="checkIcon d-flex flex-column align-items-start">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="14"
-                      height="14"
-                      viewBox="0 0 14 14"
-                      fill="none"
-                      class="bulletImage"
-                    >
-                      <path
-                        d="M11.6673 3.5L5.25065 9.91667L2.33398 7"
-                        stroke="#201A5B"
-                        stroke-width="1.16667"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                  </span>
-                  <p class="acadminBullet mb-0">Problem Solving</p>
-                </div>
-                <div class="d-flex gap-10">
-                  <span class="checkIcon d-flex flex-column align-items-start">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="14"
-                      height="14"
-                      viewBox="0 0 14 14"
-                      fill="none"
-                      class="bulletImage"
-                    >
-                      <path
-                        d="M11.6673 3.5L5.25065 9.91667L2.33398 7"
-                        stroke="#201A5B"
-                        stroke-width="1.16667"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                  </span>
-                  <p class="acadminBullet mb-0">Creativity & Imagination</p>
-                </div>
-                <div class="d-flex gap-10">
-                  <span class="checkIcon d-flex flex-column align-items-start">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="14"
-                      height="14"
-                      viewBox="0 0 14 14"
-                      fill="none"
-                      class="bulletImage"
-                    >
-                      <path
-                        d="M11.6673 3.5L5.25065 9.91667L2.33398 7"
-                        stroke="#201A5B"
-                        stroke-width="1.16667"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                  </span>
-                  <p class="acadminBullet mb-0">Value Instillation</p>
-                </div>
-              </div>
             </div>
-          </div>
-          <div
-            class="order-1 order-md-2 col-12 col-md-6 d-flex flex-column heroContainer position-relative image-hover"
-          >
-            <div class="imgBgTheme"></div>
-            <img src="assets/THE_FORMATIVE_YEARS_(2).webp" class="cardImg" />
-          </div>
-        </div>
-        <div
-          class="row d-flex justify-content-between gap-5 gap-md-0 align-items-center border rounded-top-4 bg-white custom-card"
-        >
-          <div class="order-2 col-12 col-md-6 d-flex flex-column heroContainer">
-            <div class="textTitle">
-              <h2>Discovering Thyself (Senior Years)</h2>
-              <span class="line">
-                <svg
-                  height="6"
-                  viewBox="0 0 84 6"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <rect width="84" height="5.25" rx="2.625" fill="#FFCA05" />
-                </svg>
-              </span>
-            </div>
-            <div>
-              <h4 class="custom-card-heading">Discovering Themselves</h4>
-              <p class="custom-card-para">
-                Children experience an environment which offers them myriad
-                opportunities to discover themselves.
-              </p>
-            </div>
-            <div class="row row-cols-2">
-              <div class="col align-items-center gap-2">
-                <div class="d-flex gap-10">
-                  <span class="checkIcon d-flex flex-column align-items-start">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="14"
-                      height="14"
-                      viewBox="0 0 14 14"
-                      fill="none"
-                      class="bulletImage"
-                    >
-                      <path
-                        d="M11.6673 3.5L5.25065 9.91667L2.33398 7"
-                        stroke="#201A5B"
-                        stroke-width="1.16667"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                  </span>
-                  <p class="acadminBullet mb-0">
-                    Essential Skills for Better Tomorrow
-                  </p>
-                </div>
-                <div class="d-flex gap-10">
-                  <span class="checkIcon d-flex flex-column align-items-start">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="14"
-                      height="14"
-                      viewBox="0 0 14 14"
-                      fill="none"
-                      class="bulletImage"
-                    >
-                      <path
-                        d="M11.6673 3.5L5.25065 9.91667L2.33398 7"
-                        stroke="#201A5B"
-                        stroke-width="1.16667"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                  </span>
-                  <p class="acadminBullet mb-0">
-                    Intellectuals Emotional Growth Preparing for Future
-                  </p>
-                </div>
-                <div class="d-flex gap-10">
-                  <span class="checkIcon d-flex flex-column align-items-start">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="14"
-                      height="14"
-                      viewBox="0 0 14 14"
-                      fill="none"
-                      class="bulletImage"
-                    >
-                      <path
-                        d="M11.6673 3.5L5.25065 9.91667L2.33398 7"
-                        stroke="#201A5B"
-                        stroke-width="1.16667"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                  </span>
-                  <p class="acadminBullet mb-0">Environmental Consciousness</p>
-                </div>
-              </div>
-              <div class="col-lg-6 col-md-6 align-items-center gap-14">
-                <div class="d-flex gap-10">
-                  <span class="checkIcon d-flex flex-column align-items-start">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="14"
-                      height="14"
-                      viewBox="0 0 14 14"
-                      fill="none"
-                      class="bulletImage"
-                    >
-                      <path
-                        d="M11.6673 3.5L5.25065 9.91667L2.33398 7"
-                        stroke="#201A5B"
-                        stroke-width="1.16667"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                  </span>
-                  <p class="acadminBullet mb-0">Life skills Understanding</p>
-                </div>
-                <div class="d-flex gap-10">
-                  <span class="checkIcon d-flex flex-column align-items-start">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="14"
-                      height="14"
-                      viewBox="0 0 14 14"
-                      fill="none"
-                      class="bulletImage"
-                    >
-                      <path
-                        d="M11.6673 3.5L5.25065 9.91667L2.33398 7"
-                        stroke="#201A5B"
-                        stroke-width="1.16667"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                  </span>
-                  <p class="acadminBullet mb-0">Building Leadership</p>
-                </div>
-                <div class="d-flex gap-10">
-                  <span class="checkIcon d-flex flex-column align-items-start">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="14"
-                      height="14"
-                      viewBox="0 0 14 14"
-                      fill="none"
-                      class="bulletImage"
-                    >
-                      <path
-                        d="M11.6673 3.5L5.25065 9.91667L2.33398 7"
-                        stroke="#201A5B"
-                        stroke-width="1.16667"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                  </span>
-                  <p class="acadminBullet mb-0">Global Enrichment</p>
-                </div>
-              </div>
+            <div
+              class="order-1 col-12 col-md-6 d-flex flex-column heroContainer position-relative image-hover"
+            >
+              <div class="imgBgTheme"></div>
+              <img src="assets/THE_FORMATIVE_YEARS_(1).webp" class="cardImg" />
             </div>
           </div>
           <div
-            class="order-1 col-12 col-md-6 d-flex flex-column heroContainer position-relative image-hover"
+            class="row d-flex justify-content-between gap-5 gap-md-0 align-items-center border rounded-top-4 bg-white custom-card"
           >
-            <div class="imgBgTheme"></div>
-            <img src="assets/THE_FORMATIVE_YEARS_(3).webp" class="cardImg" />
+            <div
+              class="order-2 order-md-1 col-12 col-md-6 d-flex flex-column heroContainer"
+            >
+              <div class="textTitle">
+                <h2>Nurturing Years (Middle Years)</h2>
+                <span class="line">
+                  <svg
+                    height="6"
+                    viewBox="0 0 84 6"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect width="84" height="5.25" rx="2.625" fill="#FFCA05" />
+                  </svg>
+                </span>
+              </div>
+              <div>
+                <h4 class="custom-card-heading">
+                  Committed to Achieve Excellence
+                </h4>
+                <p class="custom-card-para">
+                  Creating an environment committed to achieve excellence.
+                </p>
+              </div>
+              <div class="row row-cols-1 row-sm-cols-2">
+                <div class="col align-items-center gap-14">
+                  <div class="d-flex gap-10">
+                    <span
+                      class="checkIcon d-flex flex-column align-items-start"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="14"
+                        viewBox="0 0 14 14"
+                        fill="none"
+                        class="bulletImage"
+                      >
+                        <path
+                          d="M11.6673 3.5L5.25065 9.91667L2.33398 7"
+                          stroke="#201A5B"
+                          stroke-width="1.16667"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </span>
+                    <p class="acadminBullet mb-0">
+                      Environment that Promotes Critical Thinking
+                    </p>
+                  </div>
+                  <div class="d-flex gap-10">
+                    <span
+                      class="checkIcon d-flex flex-column align-items-start"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="14"
+                        viewBox="0 0 14 14"
+                        fill="none"
+                        class="bulletImage"
+                      >
+                        <path
+                          d="M11.6673 3.5L5.25065 9.91667L2.33398 7"
+                          stroke="#201A5B"
+                          stroke-width="1.16667"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </span>
+                    <p class="acadminBullet mb-0">Student Leadership</p>
+                  </div>
+                  <div class="d-flex gap-10">
+                    <span
+                      class="checkIcon d-flex flex-column align-items-start"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="14"
+                        viewBox="0 0 14 14"
+                        fill="none"
+                        class="bulletImage"
+                      >
+                        <path
+                          d="M11.6673 3.5L5.25065 9.91667L2.33398 7"
+                          stroke="#201A5B"
+                          stroke-width="1.16667"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </span>
+                    <p class="acadminBullet mb-0">Effective Communication</p>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 align-items-center gap-2">
+                  <div class="d-flex gap-10">
+                    <span
+                      class="checkIcon d-flex flex-column align-items-start"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="14"
+                        viewBox="0 0 14 14"
+                        fill="none"
+                        class="bulletImage"
+                      >
+                        <path
+                          d="M11.6673 3.5L5.25065 9.91667L2.33398 7"
+                          stroke="#201A5B"
+                          stroke-width="1.16667"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </span>
+                    <p class="acadminBullet mb-0">Problem Solving</p>
+                  </div>
+                  <div class="d-flex gap-10">
+                    <span
+                      class="checkIcon d-flex flex-column align-items-start"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="14"
+                        viewBox="0 0 14 14"
+                        fill="none"
+                        class="bulletImage"
+                      >
+                        <path
+                          d="M11.6673 3.5L5.25065 9.91667L2.33398 7"
+                          stroke="#201A5B"
+                          stroke-width="1.16667"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </span>
+                    <p class="acadminBullet mb-0">Creativity & Imagination</p>
+                  </div>
+                  <div class="d-flex gap-10">
+                    <span
+                      class="checkIcon d-flex flex-column align-items-start"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="14"
+                        viewBox="0 0 14 14"
+                        fill="none"
+                        class="bulletImage"
+                      >
+                        <path
+                          d="M11.6673 3.5L5.25065 9.91667L2.33398 7"
+                          stroke="#201A5B"
+                          stroke-width="1.16667"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </span>
+                    <p class="acadminBullet mb-0">Value Instillation</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="order-1 order-md-2 col-12 col-md-6 d-flex flex-column heroContainer position-relative image-hover"
+            >
+              <div class="imgBgTheme"></div>
+              <img src="assets/THE_FORMATIVE_YEARS_(2).webp" class="cardImg" />
+            </div>
+          </div>
+          <div
+            class="row d-flex justify-content-between gap-5 gap-md-0 align-items-center border rounded-top-4 bg-white custom-card"
+          >
+            <div
+              class="order-2 col-12 col-md-6 d-flex flex-column heroContainer"
+            >
+              <div class="textTitle">
+                <h2>Discovering Thyself (Senior Years)</h2>
+                <span class="line">
+                  <svg
+                    height="6"
+                    viewBox="0 0 84 6"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect width="84" height="5.25" rx="2.625" fill="#FFCA05" />
+                  </svg>
+                </span>
+              </div>
+              <div>
+                <h4 class="custom-card-heading">Discovering Themselves</h4>
+                <p class="custom-card-para">
+                  Children experience an environment which offers them myriad
+                  opportunities to discover themselves.
+                </p>
+              </div>
+              <div class="row row-cols-1 row-sm-cols-2">
+                <div class="col align-items-center gap-2">
+                  <div class="d-flex gap-10">
+                    <span
+                      class="checkIcon d-flex flex-column align-items-start"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="14"
+                        viewBox="0 0 14 14"
+                        fill="none"
+                        class="bulletImage"
+                      >
+                        <path
+                          d="M11.6673 3.5L5.25065 9.91667L2.33398 7"
+                          stroke="#201A5B"
+                          stroke-width="1.16667"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </span>
+                    <p class="acadminBullet mb-0">
+                      Essential Skills for Better Tomorrow
+                    </p>
+                  </div>
+                  <div class="d-flex gap-10">
+                    <span
+                      class="checkIcon d-flex flex-column align-items-start"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="14"
+                        viewBox="0 0 14 14"
+                        fill="none"
+                        class="bulletImage"
+                      >
+                        <path
+                          d="M11.6673 3.5L5.25065 9.91667L2.33398 7"
+                          stroke="#201A5B"
+                          stroke-width="1.16667"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </span>
+                    <p class="acadminBullet mb-0">
+                      Intellectuals Emotional Growth Preparing for Future
+                    </p>
+                  </div>
+                  <div class="d-flex gap-10">
+                    <span
+                      class="checkIcon d-flex flex-column align-items-start"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="14"
+                        viewBox="0 0 14 14"
+                        fill="none"
+                        class="bulletImage"
+                      >
+                        <path
+                          d="M11.6673 3.5L5.25065 9.91667L2.33398 7"
+                          stroke="#201A5B"
+                          stroke-width="1.16667"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </span>
+                    <p class="acadminBullet mb-0">
+                      Environmental Consciousness
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 align-items-center gap-14">
+                  <div class="d-flex gap-10">
+                    <span
+                      class="checkIcon d-flex flex-column align-items-start"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="14"
+                        viewBox="0 0 14 14"
+                        fill="none"
+                        class="bulletImage"
+                      >
+                        <path
+                          d="M11.6673 3.5L5.25065 9.91667L2.33398 7"
+                          stroke="#201A5B"
+                          stroke-width="1.16667"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </span>
+                    <p class="acadminBullet mb-0">Life skills Understanding</p>
+                  </div>
+                  <div class="d-flex gap-10">
+                    <span
+                      class="checkIcon d-flex flex-column align-items-start"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="14"
+                        viewBox="0 0 14 14"
+                        fill="none"
+                        class="bulletImage"
+                      >
+                        <path
+                          d="M11.6673 3.5L5.25065 9.91667L2.33398 7"
+                          stroke="#201A5B"
+                          stroke-width="1.16667"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </span>
+                    <p class="acadminBullet mb-0">Building Leadership</p>
+                  </div>
+                  <div class="d-flex gap-10">
+                    <span
+                      class="checkIcon d-flex flex-column align-items-start"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="14"
+                        viewBox="0 0 14 14"
+                        fill="none"
+                        class="bulletImage"
+                      >
+                        <path
+                          d="M11.6673 3.5L5.25065 9.91667L2.33398 7"
+                          stroke="#201A5B"
+                          stroke-width="1.16667"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </span>
+                    <p class="acadminBullet mb-0">Global Enrichment</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="order-1 col-12 col-md-6 d-flex flex-column heroContainer position-relative image-hover"
+            >
+              <div class="imgBgTheme"></div>
+              <img src="assets/THE_FORMATIVE_YEARS_(3).webp" class="cardImg" />
+            </div>
           </div>
         </div>
       </div>
@@ -1331,10 +1394,10 @@
           stroke-linecap="round"
         />
       </svg>
-      <div class="container">
-        <div class="impactBg">
+      <div class="container z-4">
+        <div>
           <div
-            class="activityBg padding-80_40 d-flex flex-column gap-40 rounded-4px"
+            class="activityBg padding-80_40 p-md-50_22 d-flex flex-column gap-40 rounded-4px"
           >
             <div class="row flex flex-column gap-2 text-center">
               <h3>Co Curricular and Super Curricular Activities</h3>
@@ -1361,7 +1424,7 @@
                       <img src="assets/Hand_Ball.webp" alt="Handball" />
                     </div>
                     <div class="card-info">
-                      <h3>Hand Ball</h3>
+                      <h3 class="font-md-21">Hand Ball</h3>
                     </div>
                   </div>
                 </div>
@@ -1373,7 +1436,7 @@
                       <img src="assets/Hand Ball_(5).webp" alt="Handball" />
                     </div>
                     <div class="card-info">
-                      <h3>Swimming</h3>
+                      <h3 class="font-md-21">Swimming</h3>
                     </div>
                   </div>
                 </div>
@@ -1385,7 +1448,7 @@
                       <img src="assets/Hand Ball_(2).webp" alt="Handball" />
                     </div>
                     <div class="card-info">
-                      <h3>Badminton</h3>
+                      <h3 class="font-md-21">Badminton</h3>
                     </div>
                   </div>
                 </div>
@@ -1397,7 +1460,7 @@
                       <img src="assets/Hand Ball_(3).webp" alt="Handball" />
                     </div>
                     <div class="card-info">
-                      <h3>Cricket</h3>
+                      <h3 class="font-md-21">Cricket</h3>
                     </div>
                   </div>
                 </div>
@@ -1409,7 +1472,7 @@
                       <img src="assets/Hand Ball_(4).webp" alt="Handball" />
                     </div>
                     <div class="card-info">
-                      <h3>Volley Ball</h3>
+                      <h3 class="font-md-21">Volley Ball</h3>
                     </div>
                   </div>
                 </div>
@@ -1421,7 +1484,7 @@
                       <img src="assets/Hand Ball (6).webp" alt="Handball" />
                     </div>
                     <div class="card-info">
-                      <h3>Basket Ball</h3>
+                      <h3 class="font-md-21">Basket Ball</h3>
                     </div>
                   </div>
                 </div>
@@ -1433,7 +1496,7 @@
                       <img src="assets/Hand Ball_(7).webp" alt="Handball" />
                     </div>
                     <div class="card-info">
-                      <h3>Horse Riding</h3>
+                      <h3 class="font-md-21">Horse Riding</h3>
                     </div>
                   </div>
                 </div>
@@ -2097,7 +2160,7 @@
                       stroke-linejoin="round"
                     />
                   </svg>
-                  <span class="contact-text"
+                  <span class="contact-text text-underline-none"
                     ><a href="tel:+91 82669 54007">+91 82669 54007</a></span
                   >
                 </div>
@@ -2118,7 +2181,7 @@
                       stroke-linejoin="round"
                     />
                   </svg>
-                  <span class="contact-text"
+                  <span class="contact-text text-underline-none"
                     ><a href="mailto:info@pavnaintlschool.com"
                       >info@pavnaintlschool.com</a
                     ></span

@@ -33,13 +33,16 @@
 
 @media (max-width: 1068px) {
   .right-lg-5per {
-    right: 5% !important;
+    right: 5%;
   }
 }
 
 @media (max-width: 990px) {
   .header-bg {
     height: 165vh !important;
+  }
+  .gap-md-50 {
+    gap: 50px !important;
   }
   .groupImg {
     height: 230px !important;
@@ -55,8 +58,11 @@
 }
 
 @media (max-width: 768px) {
-  .header-bg {
-    height: 162vh !important;
+  .heroContainer {
+    gap: 23px;
+  }
+  .custom-card-para {
+    margin: 0px;
   }
   .footer-bottom-content {
     flex-direction: column;
@@ -67,20 +73,41 @@
   }
   .custom-card h2 {
     width: 100% !important;
+    font-size: 23px !important;
   }
-
-  .groupImage {
-    height: 450px;
-    width: 80% !important;
+  .custom-card {
+    padding: 20px !important;
+  }
+  .custom-card-heading {
+    font-size: 20px !important;
+  }
+  .admissions-section {
+    padding: 50px 0 !important;
+  }
+  .p-md-50_22 {
+    padding: 50px 22px !important;
   }
   .card-overlay p {
     padding: 0 20px;
   }
+  .font-md-33,
+  .activityBg h3 {
+    font-size: 33px;
+  }
+  .activityBg p {
+    font-size: 17px;
+  }
+  .font-md-40 {
+    font-size: 40px !important;
+  }
+  .font-md-21 {
+    font-size: 21px !important;
+  }
+  .font-md-18 {
+    font-size: 18px !important;
+  }
 }
 @media (max-width: 480px) {
-  .groupImage {
-    height: 350px !important;
-  }
   .custom-card {
     position: relative;
   }
