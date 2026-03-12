@@ -415,8 +415,8 @@ a {
   aspect-ratio: 34/39;
 }
 .impactBg {
-  padding: 80px 0px;
-  gap: 48px;
+  padding: 50px 0px;
+  gap: 40px;
 }
 .padding-80_40 {
   padding: 80px 40px;
@@ -560,31 +560,32 @@ a {
   line-height: 28px;
 }
 
-.image-hover:hover .cardImg {
-  width: 82%;
-}
 .image-hover:hover img {
   box-shadow: 0 10px 30px #fade72;
 }
 .imgBgTheme {
-  width: 80%;
-  height: 98%;
-  position: absolute;
-  left: 7%;
-  top: 7%;
+  width: 100%;
+  height: 430px;
+  position: relative;
   border-radius: 14px;
   background: #201a5b;
-  z-index: 1;
+  aspect-ratio: 1/1;
 }
-
 .cardImg {
-  width: 85%;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: -15px;
+  left: -15px;
   transition: width 0.3s ease;
-  z-index: 4;
   border-radius: 14px;
   border: 4px solid #fff;
   background: lightgray 50% / cover no-repeat;
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+.imgBgTheme:hover .cardImg {
+  top: -20px;
+  left: -20px;
 }
 
 .card-slider {
