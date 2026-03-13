@@ -151,7 +151,8 @@
     flex-direction: column;
     text-align: center;
   }
-  .boardPara {
+  .boardPara,
+  .footer-description {
     width: 100% !important;
   }
   .custom-card h2 {

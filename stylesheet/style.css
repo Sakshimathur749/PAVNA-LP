@@ -61,6 +61,9 @@ a {
 .font-Gill {
   font-family: GillSans;
 }
+.font-GillSans700 {
+  font-family: GillSans700;
+}
 .font-32px {
   font-size: 32px;
   margin: 0px;
@@ -236,7 +239,7 @@ a {
 .eco-md-card {
   background-color: #fff;
   border-radius: 10px;
-  padding: 8px;
+  padding: 20px;
   flex-shrink: 0;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
@@ -405,11 +408,10 @@ a {
 }
 .heroHeading {
   color: #24245a;
-  font-size: 70px;
+  font-size: 60px;
   font-style: normal;
   font-weight: 900;
   line-height: normal;
-  letter-spacing: -0.932px;
 }
 .heroPara {
   color: #5b5b83;
@@ -548,7 +550,8 @@ a {
   width: 22px;
   height: 22px;
 }
-.bulletImage:hover {
+.bulletImage:hover,
+.colorFour {
   background: #ffca05;
 }
 .custom-card {
@@ -653,7 +656,7 @@ a {
 }
 .activityBg h3 {
   color: #201a5b;
-  font-family: GillSans;
+  font-family: GillSans700;
   font-size: 42px;
   font-style: normal;
   font-weight: 700;
@@ -670,7 +673,7 @@ a {
 .card-2 {
   display: inline-flex;
   height: 279.85px;
-  padding: 28px;
+  padding: 20px;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
@@ -771,7 +774,7 @@ a {
 }
 /* Footer Section */
 .footer-section {
-  background-color: #00a7e1;
+  background-color: #00b7dd;
   padding: 60px 0 0;
   color: #e0e0e0;
 }
@@ -792,7 +795,8 @@ a {
 
 .footer-description {
   font-family: GillSans, sans-serif;
-  font-size: 15px;
+  width: 360px;
+  font-size: 17px;
   font-weight: 400;
   line-height: 1.6;
   color: white;
@@ -831,7 +835,7 @@ a {
 
 .contact-text {
   font-family: GillSans, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 1.6;
   color: white;
