@@ -10,6 +10,9 @@ a {
   color: inherit;
   text-decoration: none;
 }
+.w-fit-content {
+  width: fit-content;
+}
 .z-4 {
   z-index: 4;
 }
@@ -50,7 +53,7 @@ a {
   color: #9b8c8c;
 }
 .colorFour {
-  color: #ffca05;
+  color: #ffca05 !important;
 }
 .text-underline-none {
   text-decoration: none;
@@ -242,7 +245,7 @@ a {
 .eco-md-card {
   background-color: #fff;
   border-radius: 10px;
-  padding: 20px;
+  padding: 15px;
   flex-shrink: 0;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
@@ -706,7 +709,7 @@ a {
 }
 .title-card p:hover,
 .boardHead > h3 p {
-  color: #fff !important;
+  color: #fff;
 }
 .footer-note {
   color: #dadada;
@@ -770,8 +773,7 @@ a {
 
 .card-info h3 {
   margin: 0;
-  color: var(--navy);
-  font-size: 1.2rem;
+  font-size: 18px;
   font-weight: 700;
 }
 /* Footer Section */
@@ -1098,6 +1100,7 @@ a {
   font-family: GillSans;
   font-size: 17.5px;
   font-style: normal;
+  padding: 0px 20px;
   font-weight: 300;
   line-height: 28.44px;
   width: 54%;
@@ -1130,9 +1133,8 @@ a {
 .boardCard h4 {
   color: #fff;
   text-align: center;
-  font-family: GillSans;
-  font-size: 18px;
-  padding: 0px 50px;
+  font-family: GillSans700;
+  font-size: 14px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
