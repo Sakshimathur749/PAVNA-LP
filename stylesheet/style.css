@@ -1238,3 +1238,18 @@ a {
   width: 100%;
   transition: width 0.4s ease;
 }
+.sports-carousel-wrapper,
+.sports-carousel .sport-card {
+  width: 100%;
+}
+
+.image-box img {
+  border-radius: 18px 18px 0px 0px;
+}
+.sports-carousel .owl-stage {
+  display: flex;
+}
+
+.sports-carousel .owl-item {
+  transition-timing-function: linear !important;
+}

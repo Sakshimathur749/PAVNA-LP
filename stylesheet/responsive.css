@@ -112,7 +112,7 @@
   }
   .font-md-33,
   .activityBg h3 {
-    font-size: 30px !important;
+    font-size: 30px;
   }
   .custom-card-heading {
     font-size: 20px !important;
@@ -129,6 +129,9 @@
   }
   .font-md-21 {
     font-size: 21px !important;
+  }
+  .fs-md-6 {
+    font-size: 16px !important;
   }
   .font-md-18 {
     font-size: 18px !important;
@@ -171,7 +174,8 @@
   .px-md-14 {
     padding: 0px 14px !important;
   }
-  .card-overlay p {
+  .card-overlay p,
+  .px-md-20 {
     padding: 0 20px;
   }
   .boardCard h4 {
@@ -188,6 +192,9 @@
   }
   .footer-section {
     padding: 50px 0 0 !important;
+  }
+  .image-box {
+    height: 170px !important;
   }
 }
 @media (max-width: 480px) {
