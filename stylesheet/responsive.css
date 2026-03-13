@@ -38,6 +38,9 @@
   .right-lg-5per {
     right: 5%;
   }
+  .svg-bg {
+    left: 12%;
+  }
 }
 
 @media (max-width: 990px) {
