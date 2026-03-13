@@ -47,6 +47,9 @@
   .gap-md-50 {
     gap: 50px !important;
   }
+  .imgBgTheme {
+    height: 300px;
+  }
   .groupImg {
     height: 230px !important;
   }
