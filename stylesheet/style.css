@@ -25,6 +25,9 @@ a {
 .p-10px {
   padding: 10px;
 }
+.px-20 {
+  padding: auto 20px !important;
+}
 .iconBgColor {
   background: rgba(28, 44, 91, 0.1);
 }
@@ -444,7 +447,7 @@ a {
   gap: 40px;
 }
 .padding-80_40 {
-  padding: 80px 40px;
+  padding: 80px 40px !important;
 }
 .padding-80_0 {
   padding: 80px 0px;
@@ -696,8 +699,6 @@ a {
 }
 .activityBg > div {
   display: flex;
-  /* flex-direction: column; */
-  /* gap: 42px; */
 }
 .cardText {
   color: #201a5b;
