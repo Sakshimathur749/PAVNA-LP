@@ -65,13 +65,11 @@
 
 @media (max-width: 768px) {
   .imgBgTheme {
-    width: 250px;
-    height: 200px;
-    margin: auto;
+    aspect-ratio: 1/1;
     position: relative;
     border-radius: 14px;
     background: #201a5b;
-    margin: 20px auto auto auto;
+    margin: 20px 0 0 0;
   }
   .cardImg {
     position: absolute;
@@ -114,7 +112,7 @@
   }
   .font-md-33,
   .activityBg h3 {
-    font-size: 30px;
+    font-size: 30px !important;
   }
   .custom-card-heading {
     font-size: 20px !important;
