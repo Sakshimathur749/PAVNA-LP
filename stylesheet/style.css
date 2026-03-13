@@ -49,6 +49,9 @@ a {
 .colorThree {
   color: #9b8c8c;
 }
+.colorFour {
+  color: #ffca05;
+}
 .text-underline-none {
   text-decoration: none;
 }
@@ -550,8 +553,7 @@ a {
   width: 22px;
   height: 22px;
 }
-.bulletImage:hover,
-.colorFour {
+.bulletImage:hover {
   background: #ffca05;
 }
 .custom-card {
