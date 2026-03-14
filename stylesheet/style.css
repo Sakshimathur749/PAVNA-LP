@@ -485,7 +485,8 @@ a {
   border-radius: 9999px;
   background: #ffca05;
 }
-.count {
+.count,
+.boardHeading {
   color: #fff;
   text-overflow: ellipsis;
   font-family: GillSans;
